@@ -24,10 +24,24 @@ dan kotak food grade berwarna merah untuk *takeaway*.
 agar dapat menjangkau konsumennya. Salah satunya menggunakan
 Aplikasi **Go-Food**.
 
+Dalam kondisi diterpa pandemi tahun 2020, **ABD** menjadi semakin berkembang pesat dan 
+hanya berfokus pada konsep *delivery online* atau bisa disebut dengan
+*Virtual Restaurant*. Keberhasilan **ABD** di tahun 2020 dan 2021
+melahirkan 27 *outlet* yang tersebar di Bandung, Jakarta, Cirebon, dan Tasikmalaya.
+Adapun juga *outlet* lainnya yang baru hadir di sekitar Jabodetabek yang akan mendatang di tahun 2024.
+""")
 
-Kini, gerainya di Jakarta sudah cukup 
-banyak menyebar, yaitu di kawasan Daan Mogot, 
-Cinere, Tebet, Pesanggrahan, Kemanggisan, dan Pasar Minggu.
+st.markdown("""
+### Rumusan Masalah
+Bisnis *fast food* merupakan bisnis yang terlihat cukup menguntungkan dibandingkan
+dengan bisnis sektor lainnya. Dengan fokus *target market*-nya adalah mahasiswa dan pekerja kantoran.
+Tentu dengan harga hidangan murah akan lebih disukai dan banyak diincar oleh konsumen.
+Tidak hanya itu, mengusung penjualan makanan dengan konsep "Ayam Geprek" ini bisa dijadikan
+sebagai makanan *"comfort-food"* akan sering dibeli karena terjangkau dan banyak hidangan pelengkap
+untuk menemani makan. 
+
+***Unique Selling Point*** dari **ABD** ini adalah *fried kailan* yang ada di beberapa
+menu makanannya dan juga tersedia sebagai *ala-carte*. 
 
 
 """)
