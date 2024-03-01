@@ -4,7 +4,10 @@ from PIL import Image
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
 st.write("Wondy Arifin || Member of TETRIS Batch IV from DQLAB")
 
-st.markdown("""
+tab1, tab2, tab3 = st.tabs(["Home", "Dataset", "Owl"])
+with tab1:
+
+    st.markdown("""
 ### Latar Belakang
 **ABD** kepanjangan dari **Ayam Bang Dava** merupakan salah satu
 franchise *fast food* lokal yang populer dengan 
@@ -44,13 +47,45 @@ melahirkan 27 *outlet* yang tersebar di Bandung, Jakarta, Cirebon, dan Tasikmala
 Adapun juga *outlet* lainnya yang baru hadir di sekitar Jabodetabek yang akan mendatang di tahun 2024.
 """)
 
-st.markdown("""
+    st.divider()
+
+    st.markdown("""
 ### Rumusan Masalah
 Para kompetitor bisnis yang serupa dengan konsep jualan "Ayam Geprek" ini tentu belum
 bisa mengungguli kompetitor besar lainnya. Maka dari itu, pentingnya sebuah *product knowledge* dan
 *improvement* agar bisa bersaing secara kreatif dan mengusung teknik *marketing* dan *selling* yang bisa mendorong
 berkembangnya suatu bisnis dengan harapan konsumen akan melakukan *repeat order*.
 
+Untuk melakukan *improvement* terhadap bisnisnya, tentunya masukan dari konsumen juga sangat berarti
+bagi pertumbuhan bisnisnya. Bisnis akan berkembang dan *sustainable* ketika segala *SOP* menjadi suatu acuan
+dalam menjalankan suatu bisnis. Hal ini tentunya akan mendapatkan perlakuan yang berbeda yang membuat
+faktor ini sulit menjadi pondasi dasar bersama untuk skala *middle manager* dan dibawahnya untuk
+mengurusi setiap *outlet* dengan SDM yang beragam. Tentu saja, setiap *outlet* akan ada perbedaannya
+dengan *outlet* yang lain dipengaruhi oleh SDM yang dimilikinya serta dari lingkungannya.
 
+Hadirnya suatu *feedback* akan sangat berarti untuk mempertahankan bisnisnya serta mempererat hubungannya antara pelanggan
+dan *outlet* terdekatnya agar mendapatkan suatu *improvement* dan perbaikan apabila ada kesalahan dalam memasarkan produknya.
+Baik itu mendapatkan respon baik ataupun komentar, tentunya akan mengubah performa dari *franchise* tersebut agar bisa
+diterima baik di lingkungan dan kepada masyarakat luas untuk mencoba dan menyantap dari produk ABD ini.
+ 
+Oleh sebab itu, *project* ini berupaya untuk membangun sistem pendukung keputusan dalam menilai suatu produk dan
+perbaikan *SOP*, *improvement*, maupun *product knowledge* dari setiap *outlet* agar dapat memiliki kualitas yang sama
+sesuai dengan ekspektasi. Pada *project* ini juga dilakukan analisis untuk menguji beberapa hipotesis, di antaranya:
+1. Apakah *review* berpengaruh pada penjualan?
+2. Apakah sebagian besar *review* mengandung isi kata positif?
+3. Seberapa besar pengaruh sebuah *review* terhadap penjualan?
+""")
+    st.divider()
+
+    st.markdown("""
+### Asumsi dan Batasan
+Dalam pengerjaan *project* ini, terdapat beberapa asumsi dan batasan di antaranya:
+
+1. Data sebuah *review* yang digunakan untuk analisis diambil dari aplikasi pengantaran makanan *online* Go-Food.
+2. Data yang didapatkan hanyalah yang muncul di kolom *review* berupa komentar atau pesan *feedback*.
+""")
+
+with tab2:
+    st.markdown("""
 
 """)
