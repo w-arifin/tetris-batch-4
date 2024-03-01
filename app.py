@@ -1,15 +1,33 @@
 import streamlit as st
+from PIL import Image
 
-def main():
-    # Header
-    st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
-    st.write("Created By Wondy Arifin")
-    
-    # Isi
-    st.write("Di Kota Bandung, olahan daging ayam sudah tak terhitung lagi banyaknya. Setiap sudut kota, Anda begitu mudah menemui berbagai macam tempat makan yang menawarkan menu tersebut. Satu di antaranya yang patut anda sambangi adalah Kedai Ayam Bang Dava. Lokasinya berada di Jalan Mataram No 2, Cihapit, Kota Bandung.")
-    
-    # Gambar
-    st.image("https://via.placeholder.com/300", caption="Ini adalah contoh gambar", use_column_width=True)
+st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
+st.write("Wondy Arifin || Member of TETRIS Batch IV from DQLAB")
 
-if __name__ == "__main__":
-    main()
+st.markdown("""
+### Latar Belakang
+**ABD** kepanjangan dari **Ayam Bang Dava** merupakan salah satu
+franchise *fast food* lokal yang populer dengan 
+olahan daging ayam kekinian. Populernya adalah hidangan
+**"Ayam Geprek"**-nya. 
+
+Ayam geprek di sini disajikan dengan beragam jenis sambal. 
+Sambal original dan sambal daun jeruknya paling andalan. 
+Seporsinya bisa disajikan dengan nasi putih, nasi merah, 
+nasi cabe garam, nasi pedas merah, nasi pedas daun jeruk.
+Menu yang banyak dipesan adalah **"Paket Komplit Nasi Ayam Geprek Sambal Matah"**.
+
+Seluruh ragam olahan menu tersebut dikemas 
+menggunakan piring rotan untuk makan di tempat (*dine-in*), 
+dan kotak food grade berwarna merah untuk *takeaway*. 
+*Franchise* ini juga menggunakan beberapa aplikasi pengantaran makanan
+agar dapat menjangkau konsumennya. Salah satunya menggunakan
+Aplikasi **Go-Food**.
+
+
+Kini, gerainya di Jakarta sudah cukup 
+banyak menyebar, yaitu di kawasan Daan Mogot, 
+Cinere, Tebet, Pesanggrahan, Kemanggisan, dan Pasar Minggu.
+
+
+""")
