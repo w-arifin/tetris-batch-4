@@ -17,12 +17,25 @@ Seporsinya bisa disajikan dengan nasi putih, nasi merah,
 nasi cabe garam, nasi pedas merah, nasi pedas daun jeruk.
 Menu yang banyak dipesan adalah **"Paket Komplit Nasi Ayam Geprek Sambal Matah"**.
 
+***Unique Selling Point*** dari **ABD** ini adalah *fried kailan* yang ada di beberapa
+menu makanannya dan juga tersedia sebagai *ala-carte*. *Fried kailan* sebagai pelengkap pada menu
+beberapa hidangan ayam geprek mendampingi rasa *crispy* dari ayam geprek
+bertemu dengan serat dan gurihnya dari *fried kailan* sehingga menciptakan
+perpaduan rasa yang baru.
+
 Seluruh ragam olahan menu tersebut dikemas 
 menggunakan piring rotan untuk makan di tempat (*dine-in*), 
 dan kotak food grade berwarna merah untuk *takeaway*. 
 *Franchise* ini juga menggunakan beberapa aplikasi pengantaran makanan
 agar dapat menjangkau konsumennya. Salah satunya menggunakan
 Aplikasi **Go-Food**.
+
+Bisnis *fast food* terlihat cukup menguntungkan dibandingkan
+dengan bisnis sektor lainnya. Dengan fokus *target market*-nya adalah mahasiswa dan pekerja kantoran.
+Tentu dengan harga hidangan murah akan lebih disukai dan banyak diincar oleh konsumen.
+Tidak hanya itu, mengusung penjualan makanan dengan konsep "Ayam Geprek" ini bisa dijadikan
+sebagai makanan *"comfort-food"* akan sering dibeli karena terjangkau dan banyak hidangan pelengkap
+untuk menemani makan.
 
 Dalam kondisi diterpa pandemi tahun 2020, **ABD** menjadi semakin berkembang pesat dan 
 hanya berfokus pada konsep *delivery online* atau bisa disebut dengan
@@ -33,15 +46,11 @@ Adapun juga *outlet* lainnya yang baru hadir di sekitar Jabodetabek yang akan me
 
 st.markdown("""
 ### Rumusan Masalah
-Bisnis *fast food* merupakan bisnis yang terlihat cukup menguntungkan dibandingkan
-dengan bisnis sektor lainnya. Dengan fokus *target market*-nya adalah mahasiswa dan pekerja kantoran.
-Tentu dengan harga hidangan murah akan lebih disukai dan banyak diincar oleh konsumen.
-Tidak hanya itu, mengusung penjualan makanan dengan konsep "Ayam Geprek" ini bisa dijadikan
-sebagai makanan *"comfort-food"* akan sering dibeli karena terjangkau dan banyak hidangan pelengkap
-untuk menemani makan. 
+Para kompetitor bisnis yang serupa dengan konsep jualan "Ayam Geprek" ini tentu belum
+bisa mengungguli kompetitor besar lainnya. Maka dari itu, pentingnya sebuah *product knowledge* dan
+*improvement* agar bisa bersaing secara kreatif dan mengusung teknik *marketing* dan *selling* yang bisa mendorong
+berkembangnya suatu bisnis dengan harapan konsumen akan melakukan *repeat order*.
 
-***Unique Selling Point*** dari **ABD** ini adalah *fried kailan* yang ada di beberapa
-menu makanannya dan juga tersedia sebagai *ala-carte*. 
 
 
 """)
