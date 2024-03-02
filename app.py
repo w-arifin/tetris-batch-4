@@ -86,5 +86,11 @@ Dalam pengerjaan *project* ini, terdapat beberapa asumsi dan batasan di antarany
 
 with tab2:
     st.markdown("""
+Sebanyak 28 outlet ABD yang tersebar di kawasan Pulau Jawa, data yang berhasil ditarik sebanyak 4000 lebih menggunakan 
+software Octoparse 8. Data tersebut diambil dan dilakukan cleaning duplicate dengan mengambil data distinct pada setiap
+outlet-nya dalam bentuk file excel (xlsx). Data yang didapatkan berupa nama, inisial, waktu pembuatan akun, rating,
+review, menu, dan tanggal pemesanan. Karena ini melibatkan seluruh cabang, maka semua data yang ditarik akan menambahkan
+satu kolom lokasi sebagai pembeda untuk masing-masing *outlet*.
 
 """)
+st.image('https://media.discordapp.net/attachments/593140987170390016/1213345865817784380/image.png?ex=65f52365&is=65e2ae65&hm=cfc49466181c8949a711cd36724e54439f079a57634c904e03ef5c67550f25df&=&format=webp')
