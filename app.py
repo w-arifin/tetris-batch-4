@@ -80,7 +80,7 @@ sesuai dengan ekspektasi. Pada *project* ini juga dilakukan analisis untuk mengu
 ### Asumsi dan Batasan
 Dalam pengerjaan *project* ini, terdapat beberapa asumsi dan batasan di antaranya:
 
-1. Data sebuah *review* yang digunakan untuk analisis diambil dari aplikasi pengantaran makanan *online* Go-Food.
+1. Data sebuah *review* yang digunakan untuk analisis diambil dari *website* [GoFood](https://gofood.co.id).
 2. Data yang didapatkan hanyalah yang muncul di kolom *review* berupa komentar atau pesan *feedback*.
 """)
 
