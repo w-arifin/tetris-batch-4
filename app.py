@@ -29,9 +29,8 @@ perpaduan rasa yang baru.
 Seluruh ragam olahan menu tersebut dikemas 
 menggunakan piring rotan untuk makan di tempat (*dine-in*), 
 dan kotak food grade berwarna merah untuk *takeaway*. 
-*Franchise* ini juga menggunakan beberapa aplikasi pengantaran makanan
-agar dapat menjangkau konsumennya. Salah satunya menggunakan
-Aplikasi **Go-Food**.
+*Franchise* ini juga menggunakan beberapa aplikasi untuk melakukan pengantaran makanan
+agar dapat menjangkau konsumennya. Salah satunya menggunakan layanan **GoFood** dari aplikasi **Gojek**.
 
 Bisnis *fast food* terlihat cukup menguntungkan dibandingkan
 dengan bisnis sektor lainnya. Dengan fokus *target market*-nya adalah mahasiswa dan pekerja kantoran.
