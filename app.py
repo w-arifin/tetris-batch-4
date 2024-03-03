@@ -95,3 +95,20 @@ satu kolom lokasi sebagai pembeda untuk masing-masing *outlet*.
 """)
     st.image("https://media.discordapp.net/attachments/593140987170390016/1213345865817784380/image.png?ex=65f52365&is=65e2ae65&hm=cfc49466181c8949a711cd36724e54439f079a57634c904e03ef5c67550f25df&=&format=webp", 
              caption="Salah satu contoh review dari ABD outlet Pasar Minggu", use_column_width=True, output_format='auto')
+
+    st.markdown("""
+Setelah mendapatkan data dari Octoparse 8 dan di export menjadi file excel,
+data-data tersebut akan kembali diolah agar menjadi satu file yang akan menjadi patokan
+untuk membuat satu data set yang bisa digunakan untuk melakukan analisis.
+Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
+
+- Kolom "Title" berubah menjadi "**nama**"
+- Kolom "Label" berubah menjadi "**inisial**"
+- Kolom "Content" berubah menjadi "**user_since**"
+- Kolom "ml1" berubah menjadi "**rating**"
+- Kolom "breakword" berubah menjadi "**review**"
+- Kolom "ml2" berubah menjadi "**menu**"
+- Kolom "Content1" berubah menjadi "**order_date**"
+- Kolom "Place" berubah menjadi "**region**"
+
+""")
