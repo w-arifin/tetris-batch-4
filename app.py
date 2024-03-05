@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_excel('exported_data.xlsx')
-print(df.head(2))
 
 
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
