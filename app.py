@@ -125,12 +125,13 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
     df = pd.read_excel('/workspaces/tetris-batch-4/exported_data.xlsx').head(10)
 
     st.divider()
+
     st.title("Tampilan Dataset")
+    
     st.markdown("""
     
 Berikut adalah tampilan dataset yang telah melewati proses penggabungan data dari kedua 
-sumber serta pemrosesan data. Tekan tombol Deskripsi Dataset untuk melihat penjelasan 
-dari masing-masing kolom.
+sumber serta pemrosesan data.
 
             """)
 
