@@ -6,6 +6,13 @@ import pandas as pd
 import os
 import requests
 
+@st.cache_data()
+def load_data(url, sheet_name=None):
+    df = pd.read_excel(url,sheet_name=sheet_name)
+    return df
+
+kost = load_data('exported_data.xlsx')
+    st.dataframe(kost)
 
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
 st.write("Wondy Arifin || Member of TETRIS Batch IV from DQLAB")
@@ -122,10 +129,4 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # COLAB: Import Dataset
 # ----------------------
 
-@st.cache_data()
-def load_data(url, sheet_name=None):
-    df = pd.read_excel(url,sheet_name=sheet_name)
-    return df
 
-kost = load_data('exported_data.xlsx')
-    st.dataframe(kost)
