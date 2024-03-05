@@ -122,11 +122,7 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # COLAB: Import Dataset
 # ----------------------
 
-@st.cache_data()
-def load_data(url, sheet_name=None):
-    df = pd.read_excel(url,sheet_name=sheet_name)
-    return df
-
-kost = load_data('dataset/Ayam Bang Dava, Nasi Geprek _ Popcorn, Antapani - GoFood.xlsx')
+test = pd.read_excel('exported_data.xlsx')
+st.dataframe(test)
 
 
