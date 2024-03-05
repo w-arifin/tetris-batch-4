@@ -122,7 +122,7 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # COLAB: Import Dataset
 # ----------------------
 
-    df = pd.read_excel('exported_data.xlsx').head(10)
+    df = pd.read_excel('/exported_data.xlsx').head(10)
 
     st.divider()
 
