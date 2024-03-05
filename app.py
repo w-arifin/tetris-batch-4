@@ -121,7 +121,7 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # COLAB: Import Dataset
 # ----------------------
 
-@st.cache_data()
+    @st.cache_data()
     def show_data(url, idx_name, num=None):
         if num==None:
             df = pd.read_excel(url).set_index(idx_name)
@@ -129,5 +129,5 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
             df = pd.read_excel(url).set_index(idx_name).head(num)
         return df
 
-kost = show_data('dataset/Ayam Bang Dava, Nasi Geprek _ Popcorn, Antapani - GoFood.xlsx','ml1',10)
-st.dataframe(kost, use_container_width=True)
+    kost = show_data('dataset/Ayam Bang Dava, Nasi Geprek _ Popcorn, Antapani - GoFood.xlsx','ml1',10)
+    st.dataframe(kost, use_container_width=True)
