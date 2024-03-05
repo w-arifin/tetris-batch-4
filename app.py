@@ -123,6 +123,5 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # ----------------------
 
 test = pd.read_excel('exported_data.xlsx')
-st.dataframe(test)
 
 
