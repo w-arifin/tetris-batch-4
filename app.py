@@ -5,9 +5,6 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 
-df = pd.read_excel('exported_data.xlsx')
-
-
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
 st.write("Wondy Arifin || Member of TETRIS Batch IV from DQLAB")
 
