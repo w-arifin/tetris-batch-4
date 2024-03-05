@@ -122,7 +122,7 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # ----------------------
 
 # Mendefinisikan direktori tempat file-file tabel berada
-direktori = './dataset excel'
+direktori = '/dataset excel'
 
 # Mendapatkan daftar semua file dalam direktori
 file_tabel = [file for file in os.listdir(direktori) if file.endswith('.xlsx')]
