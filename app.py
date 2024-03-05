@@ -89,6 +89,8 @@ Dalam pengerjaan *project* ini, terdapat beberapa asumsi dan batasan di antarany
 """)
 
 with tab2:
+    st.title("Proses Pengambilan Data")
+
     st.markdown("""
 Sebanyak 28 *outlet* ABD yang tersebar di kawasan Pulau Jawa, data yang berhasil ditarik sebanyak 4000 lebih menggunakan 
 *software* Octoparse 8. Data tersebut diambil dan dilakukan *cleaning duplicate* dengan mengambil data *distinct* pada setiap
@@ -119,6 +121,20 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # ----------------------
 # COLAB: Import Dataset
 # ----------------------
+
+    df = pd.read_excel('/workspaces/tetris-batch-4/exported_data.xlsx').head(10)
+
+    st.divider()
+    st.title("Tampilan Dataset")
+    st.markdown("""
+    
+Berikut adalah tampilan dataset yang telah melewati proses penggabungan data dari kedua 
+sumber serta pemrosesan data. Tekan tombol Deskripsi Dataset untuk melihat penjelasan 
+dari masing-masing kolom.
+
+            """)
+
+    st.dataframe(df)
 
 
 
