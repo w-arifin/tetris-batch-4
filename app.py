@@ -4,6 +4,7 @@ from PIL import Image
 # import dari google colab
 import pandas as pd
 import os
+import requests
 
 
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
@@ -121,12 +122,9 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # COLAB: Import Dataset
 # ----------------------
 
-@st.cache_data()
-def load_data(url, sheet_name=None):
-    df = pd.read_excel(url,sheet_name=sheet_name)
-    return df
+url = 'https://raw.githubusercontent.com/w-arifin/tetris-batch-4/blob/main/dataset/Ayam%20Bang%20Dava%2C%20Nasi%20Geprek%20_%20Popcorn%2C%20Antapani%20-%20GoFood.xlsx'
+response = requests.get(url)
+df = pd.read_excel(response.content)
+st.dataframe(df)
 
-kost = load_data('dataset/Ayam Bang Dava, Nasi Geprek _ Popcorn, Antapani - GoFood.xlsx')
-
-st.dataframe(kost).head(10)
 
