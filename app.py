@@ -128,4 +128,4 @@ def load_data(url, sheet_name=None):
     return df
 
 kost = load_data('exported_data.xlsx')
-st.dataframe(kost)
+    st.dataframe(kost)
