@@ -2,8 +2,15 @@
 import streamlit as st
 from PIL import Image
 # import dari google colab
-import pandas as pd
-import os
+
+@st.cache_data()
+def load_data(url, sheet_name=None):
+    df = pd.read_excel(url,sheet_name=sheet_name)
+    return df
+
+kost = load_data('exported_data.xlsx')
+
+
 
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
 st.write("Wondy Arifin || Member of TETRIS Batch IV from DQLAB")
