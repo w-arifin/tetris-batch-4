@@ -121,48 +121,7 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # COLAB: Import Dataset
 # ----------------------
 
-direktori = '/dataset'
+    direktori = '/dataset/Ayam Bang Dava, Nasi Geprek _ Popcorn, Antapani - GoFood.xlsx'
+    df = pd.read_excel(direktori).head(10)
+    st.dataframe(df)
 
-# Mendapatkan daftar semua file dalam direktori
-file_tabel = [file for file in os.listdir(direktori) if file.endswith('.xlsx')]
-
-# Membuat list untuk menyimpan DataFrame dari setiap file
-list_dataframe = []
-
-# Melakukan loop melalui setiap file
-for file in file_tabel:
-    # Membaca file ke dalam DataFrame
-    path_file = os.path.join(direktori, file)
-    data = pd.read_excel(path_file)
-
-    # Menambahkan DataFrame ke list
-    list_dataframe.append(data)
-
-# Menggabungkan semua DataFrame menjadi satu DataFrame tunggal menggunakan pd.concat()
-# axis=0 untuk menggabungkan berdasarkan sumbu baris (menambahkan baris baru)
-# ignore_index=True untuk mengabaikan indeks yang ada dan membuat indeks baru
-data_concat = pd.concat(list_dataframe, axis=0, ignore_index=True)
-
-# Mengubah Label menjadi string agar "NA" terbaca
-data_concat['Label'] = data_concat['Label'].astype(str)
-
-# Dictionary untuk mapping nama-nama baru header
-nama_baru = {
-    'Title': 'nama',
-    'Label': 'inisial',
-    'Content': 'user_since',
-    'ml1': 'rating_order',
-    'breakwords': 'review',
-    'ml2': 'menu',
-    'Content1': 'order_date',
-    'Place': 'region',
-    # Tambahkan kolom header lainnya yang ingin Anda ganti nama
-}
-
-# Mengganti nama header menggunakan metode rename
-data_concat.rename(columns=nama_baru, inplace=True)
-
-# Menampilkan beberapa baris pertama dari DataFrame yang telah digabungkan
-print(data_concat.head())
-
-print(data_concat.info())
