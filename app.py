@@ -122,5 +122,10 @@ Setelah nantinya digabungkan, maka akan ada perubahan kolom yakni:
 # ----------------------
 
 @st.cache_data()
+@st.cache_data()
+def load_data(url, sheet_name=None):
+    df = pd.read_excel(url,sheet_name=sheet_name)
+    return df
+
 kost = load_data('dataset/Ayam Bang Dava, Nasi Geprek _ Popcorn, Antapani - GoFood.xlsx')
 st.dataframe(kost, use_container_width=True)
