@@ -12,7 +12,7 @@ def load_data(url, sheet_name=None):
     return df
 
 kost = load_data('exported_data.xlsx')
-    st.dataframe(kost)
+st.dataframe(kost)
 
 st.title("Analisis Kepuasan Konsumen Franchise ABD (Ayam Bang Dava)")
 st.write("Wondy Arifin || Member of TETRIS Batch IV from DQLAB")
